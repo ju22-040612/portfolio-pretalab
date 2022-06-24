@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: #724796;
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu {
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+    display: flex
+}
+
+.lista-menu li>a {
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal{
+    height: 100vh;
+    display: flex;
+    background-color: #eaeaea;
+}
+    
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo {
+    font-size: 36px;
+    color: #cf297c;
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao {
+    font-size: 20px;
+    line-height: 32px;
+    color: #0c0a0e;
+}
+
+.article-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal {
+    font-size: 36px;
+    color:  #ff4dbc;
+}
+
+.lista-item{ 
+    padding: 32px;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #661e4b;
+    font-weight: 700;
+}
+    
+.lista-local {
+    font-size: 18px;
+    color: #2F80ED;
+}
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300;
+}
+
+.wrapper-portfolio{
+    accent-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-lista{
+    font-size: 18px;
+    color:#828282;
+    font-weight: 500;
+}
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
+.footer{
+    background-color: #724796;
+    height: 30vh;
+    display: flex;
+    align-items: center;    
+}
+
+.links {
+    text-decoration: none;
+    color: #faedcd;
+}
+
+.lista-footer li {
+    color: #faedcd;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
